@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+p{
+    color: #577592;
+    font-size: 1rem;
+    font-size: 20px;
+    line-height: 1.5;
+}
+h1{
+    font-family: Averta PE,sans-serif;
+    font-size: 3rem;
+    color: #183b56;
+}
+button{
+    border:2px;
+    background-color: #2294ed;
+    color:white;
+    margin:0 5px;
+    padding:10px;
+    /* box-shadow: 2px -2px #edf1f5fa; */
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    font-size:16px;
+    border-radius:2px;
+}
+.container{
+    margin:15px 25px;
+
+}
+.banner{
+    background-image: url(https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png);
+    background-color: #e74694;
+    margin:0 auto;
+    height:50px;
+    
+}
+.banner p{
+    text-align: center;
+    color:white;
+    /* margin-top:20px; */
+}
+.header{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-between; */
+    padding:15px 10px;
+    align-items: center;
+    padding-top:10px;
+}
+.header li{
+    display:inline-block;
+    padding:4px;
+}
+.header h2{
+    /* align-self: flex-start; */
+    margin-right:auto;
+}
+
+.landingPage{
+    height:80vh;
+}
+.landingPage img{
+    float:right;
+    max-width:45vw;
+    height: 75vh;
+}
+.landingPage div{
+    display:inline-block;
+     max-width: 45vw;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+    /*height: 80vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+}
+.landingPage h1{
+    margin-bottom: 20px;
+}
+.landingPage p{
+    max-width:80%;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left:5px;
+}
+.landingPage button{
+    padding:1rem 2rem;
+    border-radius:5px;
+}
+.landingBottom{
+    display: flex;
+    justify-content: space-evenly;
+}
