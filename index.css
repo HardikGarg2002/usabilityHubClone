@@ -14,6 +14,7 @@ h1{
     font-family: Averta PE,sans-serif;
     font-size: 3rem;
     color: #183b56;
+    font-weight: 600;
 }
 button{
     border:2px;
@@ -26,6 +27,9 @@ button{
     font-size:16px;
     border-radius:2px;
 }
+.middle{
+    text-align: center;
+}
 .container{
     margin:15px 25px;
 
@@ -35,12 +39,20 @@ button{
     background-color: #e74694;
     margin:0 auto;
     height:50px;
-    
+    background-size: 300px;
 }
 .banner p{
     text-align: center;
     color:white;
     /* margin-top:20px; */
+    position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+     font-size:16px;
+     
+}
+.banner a{
+    text-decoration: none;
 }
 .header{
     display: flex;
@@ -72,7 +84,7 @@ button{
      max-width: 45vw;
      position: relative;
      top: 50%;
-     transform: translateY(-50%);
+     transform: translateY(-60%);
     /*height: 80vh; */
     /* display: flex;
     flex-direction: column;
@@ -95,4 +107,61 @@ button{
 .landingBottom{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.features.container{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-content:space-evenly; */
+    height: 80vh;
+    position: relative;
+}
+.features.container div{
+    width:30vw;
+    text-align: center;
+    padding: 20px;
+}
+.features.container img{
+    height: 40px;
+    width: 40px;
+}
+.features.h1{
+    margin-top: 25vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.features.container div h2{
+    font-weight: 600;
+    color:#183b56;
+    margin-top: 10px;
+}
+.features.container div p{
+    width:80%;
+    margin:0 auto;
+}
+.features.container div.design{
+    position:absolute;
+    background-color: #ebf2fa;
+    top:-40%;
+    width:65vw;
+    height:110vh;
+    border-radius:50%;
+    border-top-right-radius: 80%;
+    transform: rotate(-14deg);
+    z-index: -1;
+    opacity: .8;
+    margin-left: 20%;
+}
+button.type2{
+    background-color: white;
+    color:black;
+    border: .5px solid #b9cde4;
+    box-shadow: none;
+    padding:10px 25px;
+    margin-top: 10px;
 }
